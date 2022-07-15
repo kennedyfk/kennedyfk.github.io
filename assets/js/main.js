@@ -191,3 +191,15 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-theme', getCurrentTheme())
   localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+/*==================== MOSTRAR/ESCONDER PAINEL ====================*/
+
+
+var ativarResumoProjeto = document.getElementById("ativar-resumo-projeto");
+
+ativarResumoProjeto.addEventListener("click", function () {
+  var resumoProjeto = document.getElementById("resumo-projeto");
+
+  resumoProjeto.classList.toggle("hide");
+})
