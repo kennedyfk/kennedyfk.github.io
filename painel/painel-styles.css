@@ -450,6 +450,13 @@ img {
 
 
 /*==================== ABOUT ====================*/
+
+.painel__bi {
+  width: 968px;
+  height: 605px;
+
+}
+
 .about__data {
   text-align: center;
 }
