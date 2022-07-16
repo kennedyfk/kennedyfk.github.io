@@ -192,6 +192,16 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+/*==================== MOSTRAR/ESCONDER PAINEL ====================*/
+
+
+var ativarObrigadoEmail = document.getElementById("button-obrigado");
+
+ativarObrigadoEmail.addEventListener("click", function () {
+  var ObrigadoEmail = document.getElementById("caixa-obrigado");
+
+  ObrigadoEmail.classList.toggle("hide");
+})
 
 /*==================== MOSTRAR/ESCONDER PAINEL ====================*/
 

@@ -397,6 +397,18 @@ img {
 
 
 /*==================== BUTTONS ====================*/
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -991,6 +1003,7 @@ img {
 
 .contact__input {
   width: 100%;
+  resize: vertical;
   background-color: var(--input-color);
   color: var(--text-color);
   font-family: var(--body-font);
@@ -998,6 +1011,31 @@ img {
   border: none;
 }
 
+.contact__input__mensagem {
+  height: 13rem;
+  min-height: 3rem;
+  max-height: 20rem;
+}
+
+.contact__input__mensagem input,
+.contact__input__mensagem textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+
+
+}
+
+.contact__input__mensagem input:hover,
+.contact__input__mensagem input:focus,
+.contact__input__mensagem textarea:hover,
+.contact__input__mensagem textarea:focus {
+  outline: none;
+  border-color: #09d;
+  box-shadow: 0 0 0 3px #4dc8ff;
+
+}
 
 /*==================== rodape ====================*/
 .rodape {
@@ -1115,6 +1153,10 @@ span .footer__subtitle {
   background-color: var(--text-color-light);
 }
 
+/*========== SCROLL BAR ==========*/
+.hide {
+  display: none;
+}
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
