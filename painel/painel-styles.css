@@ -556,6 +556,10 @@ span .footer__subtitle {
   row-gap: 1.5rem;
 }
 
+.footer__link {
+  margin: 0 1.5rem;
+}
+
 .footer__link:hover {
   color: var(--first-color-lighter);
 }
@@ -870,7 +874,7 @@ span .footer__subtitle {
 
   .footer__links {
     flex-direction: row;
-    column-gap: 2rem;
+
   }
 
   .footer__socials {
