@@ -793,6 +793,7 @@ img {
   margin-bottom: var(--mb-1-5);
 }
 
+
 .services__modal-close {
   position: absolute;
   top: 1rem;
@@ -816,6 +817,8 @@ img {
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
+  display: block;
+  flex-direction: column;
   overflow: initial;
 }
 
