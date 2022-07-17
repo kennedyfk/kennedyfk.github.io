@@ -522,7 +522,8 @@ input[type="reset"] {
 .skills__header {
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: var(--mb-1-5);
+  margin-top: var(--mb-1-5);
   cursor: pointer;
 }
 
