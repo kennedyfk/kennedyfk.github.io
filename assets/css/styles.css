@@ -360,6 +360,25 @@ img {
   margin-bottom: -5px;
 }
 
+.home__title::after {
+  content: '|';
+  margin-left: 0.1rem;
+  opacity: 1;
+  animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
 .home__subtitle {
   font-size: var(--h3-font-size);
   color: var(--text-color);
@@ -459,56 +478,56 @@ input[type="reset"] {
 }
 
 
-/*==================== ABOUT ====================*/
-.about__data {
+/*==================== sobre ====================*/
+.sobre__data {
   text-align: center;
 }
 
-.about__img {
+.sobre__img {
   width: 200px;
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
 }
 
-.about__description {
+.sobre__description {
   text-align: center;
   width: 380px;
   margin-bottom: var(--mb-2-5);
 }
 
-.about__description span {
+.sobre__description span {
   color: #E31E3C;
 }
 
-.about__info_box {
+.sobre__info_box {
   margin: 0 15px;
 }
 
-.about__info {
+.sobre__info {
   display: flex;
   justify-content: center;
   margin-bottom: var(--mb-2-5);
 }
 
-.about__info-title {
+.sobre__info-title {
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
 
-.about__info_name {
+.sobre__info_name {
   font-size: var(--smaller-font-size);
 }
 
-.about__info-title,
-.about__info-name {
+.sobre__info-title,
+.sobre__info-name {
   margin: 0 8px;
   display: block;
   text-align: center;
 }
 
-.about__buttons {
+.sobre__buttons {
   display: flex;
   justify-content: center;
 }
@@ -1052,9 +1071,17 @@ input[type="reset"] {
   padding: 2rem 0;
 }
 
+.footer_esquerdo {
+  padding: 50px;
+}
+
 .footer__title {
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-0-25);
+}
+
+.footer__title:hover {
+  color: var(--title-color);
 }
 
 .footer__title span {
@@ -1062,7 +1089,7 @@ input[type="reset"] {
 }
 
 span .footer__subtitle {
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
 }
 
 .footer__links {
@@ -1248,7 +1275,7 @@ span .footer__subtitle {
     justify-self: center;
   }
 
-  .about__container,
+  .sobre__container,
   .skills__container,
   .portfolio__content,
   .project__container,
@@ -1332,6 +1359,7 @@ span .footer__subtitle {
     line-height: 3.25rem;
   }
 
+
   .home__blob {
     width: 270px;
   }
@@ -1344,15 +1372,15 @@ span .footer__subtitle {
     margin-left: 3rem;
   }
 
-  .about__container {
+  .sobre__container {
     column-gap: 5rem;
   }
 
-  .about__img {
+  .sobre__img {
     width: 900px;
   }
 
-  .about__description {
+  .sobre__description {
     text-align: initial;
   }
 

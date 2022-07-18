@@ -192,7 +192,21 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-/*==================== MOSTRAR/ESCONDER PAINEL ====================*/
+
+/*==================== DIGITAÇÃO ====================*/
+function typeWriter(elemento) {
+  const textoArray = elemento.innerHTML.split('');
+  elemento.innerHTML = '';
+  textoArray.forEach((letra, i) => {
+    setTimeout(() => elemento.innerHTML += letra, 75 * i);
+  });
+}
+
+const titulo = document.querySelector('#home__title');
+typeWriter(titulo);
+
+
+/*==================== MOSTRAR/ESCONDER PAINEL ANTIGO ====================*/
 
 /*
 var ativarObrigadoEmail = document.getElementById("button-obrigado");
@@ -203,13 +217,16 @@ ativarObrigadoEmail.addEventListener("click", function () {
   ObrigadoEmail.classList.toggle("hide");
 })
 */
+
 /*==================== MOSTRAR/ESCONDER PAINEL ====================*/
-
-
 var ativarResumoProjeto = document.getElementById("ativar-resumo-projeto");
 
 ativarResumoProjeto.addEventListener("click", function () {
   var resumoProjeto = document.getElementById("o-projeto");
 
-  resumoProjeto.classList.toggle("hide");
-})
+  resumoProjeto.classList.toggle("hide")
+});
+
+
+
+

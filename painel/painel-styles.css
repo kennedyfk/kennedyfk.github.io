@@ -476,12 +476,29 @@ img {
 
 
 /*==================== ABOUT ====================*/
+.about {
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
 .painel__bi {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+
+}
+
+.about__texto {
+  margin: 0 10% 0 10%;
 }
 
 .about__description {
+
+  align-items: center;
   text-align: center;
   width: 360px;
   margin-bottom: var(--mb-2-5);
