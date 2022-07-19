@@ -242,7 +242,7 @@ function typeWriter(elemento) {
   const textoArray = elemento.innerHTML.split('');
   elemento.innerHTML = '';
   textoArray.forEach((letra, i) => {
-    setTimeout(() => elemento.innerHTML += letra, 95 * i);
+    setTimeout(() => elemento.innerHTML += letra, 98 * i);
   });
 }
 
@@ -251,9 +251,9 @@ const titulo = document.querySelector('#home__title');
 async function printy() {
 
   for (let i = 0; i < 25; ++i) {
-    await waitforme(1500);
+    await waitforme(2500);
     typeWriter(titulo);
-    await waitforme(8500);
+    await waitforme(10000);
   }
 }
 printy();
