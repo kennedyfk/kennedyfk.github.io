@@ -194,26 +194,80 @@ themeButton.addEventListener('click', () => {
 
 
 /*==================== DIGITAÇÃO ====================*/
+/*
 function typeWriter(elemento) {
   const textoArray = elemento.innerHTML.split('');
   elemento.innerHTML = '';
   textoArray.forEach((letra, i) => {
-    setTimeout(() => elemento.innerHTML += letra, 75 * i);
+    setTimeout(() => elemento.innerHTML += letra, 95 * i);
   });
 }
 
 const titulo = document.querySelector('#home__title');
 typeWriter(titulo);
 
+--------------------
+let i = 0;
+function typeWriter(elemento) {
+  const textoArray = elemento.innerHTML.split('');
+  elemento.innerHTML = '';
+  textoArray.forEach((letra, i) => {
+    setTimeout(() => elemento.innerHTML += letra, 95 * i);
+  });
+}
+
+const titulo = document.querySelector('#home__title');
+
+while (i <= 5) {
+
+  setTimeout(function () {
+    typeWriter(titulo);
+  }, 3000);
+
+  setTimeout(function () {
+  }, 3000);
+
+  i++
+}
+*/
+
+function waitforme(ms) {
+
+  return new Promise(resolve => {
+    setTimeout(() => { resolve('') }, ms);
+  })
+}
+
+function typeWriter(elemento) {
+  const textoArray = elemento.innerHTML.split('');
+  elemento.innerHTML = '';
+  textoArray.forEach((letra, i) => {
+    setTimeout(() => elemento.innerHTML += letra, 95 * i);
+  });
+}
+
+const titulo = document.querySelector('#home__title');
+
+async function printy() {
+
+  for (let i = 0; i < 100; ++i) {
+    await waitforme(1500);
+    typeWriter(titulo);
+    await waitforme(8500);
+  }
+}
+printy();
+
+
 
 /*==================== MOSTRAR/ESCONDER PAINEL ANTIGO ====================*/
 
 /*
 var ativarObrigadoEmail = document.getElementById("button-obrigado");
-
+ 
 ativarObrigadoEmail.addEventListener("click", function () {
   var ObrigadoEmail = document.getElementById("caixa-obrigado");
-
+ 
   ObrigadoEmail.classList.toggle("hide");
 })
 */
