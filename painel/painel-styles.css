@@ -475,28 +475,26 @@ img {
 }
 
 
-/*==================== ABOUT ====================*/
-.about {
+/*==================== PAINEL ====================*/
+.painel {
   display: block;
   align-items: center;
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .painel__bi {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-
 }
 
-.about__texto {
+.painel__texto {
   margin: 0 10% 0 10%;
 }
 
-.about__description {
+.painel__description {
 
   align-items: center;
   text-align: center;
@@ -504,38 +502,38 @@ img {
   margin-bottom: var(--mb-2-5);
 }
 
-.about__description span {
+.painel__description span {
   color: #E31E3C;
 }
 
-.about__info_box {
+.painel__info_box {
   margin: 0 15px;
 }
 
-.about__info {
+.painel__info {
   display: flex;
   justify-content: center;
   margin-bottom: var(--mb-2-5);
 }
 
-.about__info-title {
+.painel__info-title {
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
 
-.about__info_name {
+.painel__info_name {
   font-size: var(--smaller-font-size);
 }
 
-.about__info-title,
-.about__info-name {
+.painel__info-title,
+.painel__info-name {
   margin: 0 8px;
   display: block;
   text-align: center;
 }
 
-.about__buttons {
+.painel__buttons {
   display: flex;
   justify-content: center;
 }
@@ -716,6 +714,7 @@ span .footer__subtitle {
     justify-self: center;
   }
 
+
 }
 
 @media screen and (min-width: 435px) {
@@ -743,6 +742,11 @@ span .footer__subtitle {
 
   .footer__socials {
     justify-self: center;
+  }
+
+  .footer__social {
+    font-size: 1.5rem;
+    padding: 50px 0;
   }
 
 }
@@ -876,7 +880,7 @@ span .footer__subtitle {
     margin-left: 3rem;
   }
 
-  .about__description {
+  .painel__description {
     text-align: initial;
   }
 

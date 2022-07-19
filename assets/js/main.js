@@ -250,7 +250,7 @@ const titulo = document.querySelector('#home__title');
 
 async function printy() {
 
-  for (let i = 0; i < 100; ++i) {
+  for (let i = 0; i < 25; ++i) {
     await waitforme(1500);
     typeWriter(titulo);
     await waitforme(8500);
