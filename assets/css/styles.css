@@ -295,6 +295,15 @@ img {
   font-size: 1.2rem;
 }
 
+.nav__icon_port {
+  font-size: 1.2rem;
+  color: #E31E3C;
+}
+
+.nav__item span {
+  color: #E31E3C;
+}
+
 .nav__close {
   position: absolute;
   right: .9rem;
@@ -999,38 +1008,6 @@ input[type="reset"] {
   outline: none;
 }
 
-
-/*==================== PROJECT IN MIND ====================*/
-.projetc {
-  text-align: center;
-}
-
-.project__bg {
-  background-color: var(--first-color-second);
-  padding-top: 3rem;
-}
-
-.project__title {
-  font-size: var(--h2-font-size);
-  margin-bottom: var(--mb-0-75);
-}
-
-.project__description {
-  margin-bottom: var(--mb-1-5);
-}
-
-.project__title,
-.project__description {
-  color: #fff;
-}
-
-.project__img {
-  width: 232px;
-  justify-self: center;
-
-}
-
-
 /*==================== TESTIMONIAL ====================*/
 .testimonial__data,
 .testimonial__header {
@@ -1347,9 +1324,6 @@ input[type="reset"] {
     padding: 0 .5rem;
   }
 
-  .project__img {
-    width: 200px;
-  }
 
   .testimonial__data,
   .testimonial__header {
@@ -1452,7 +1426,6 @@ input[type="reset"] {
   .sobre__container,
   .skills__container,
   .portfolio__content,
-  .project__container,
   .contact__container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1559,6 +1532,7 @@ input[type="reset"] {
   }
 
   .nav__icon,
+  .nav__icon_port,
   .nav__close,
   .nav__toggle {
     display: none;
@@ -1650,26 +1624,6 @@ input[type="reset"] {
 
   .portfolio__content {
     align-items: center;
-  }
-
-  .project {
-    text-align: initial;
-  }
-
-  .project__bg {
-    background: none;
-  }
-
-  .project__container {
-    background-color: var(--first-color-second);
-    border-radius: 1rem;
-    padding: 3rem 3.5rem 0;
-    grid-template-columns: 1fr max-content;
-    column-gap: 3rem;
-  }
-
-  .project__data {
-    padding-top: .8rem;
   }
 
   .footer__container {
