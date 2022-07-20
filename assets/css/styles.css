@@ -1065,6 +1065,10 @@ input[type="reset"] {
   margin-right: var(--mb-0-75);
 }
 
+.contact__title {
+  margin-bottom: -0.35rem;
+}
+
 .contact__titles {
   font-size: var(--fonte-tamanho-h3);
   font-weight: var(--font-medium);
