@@ -1205,19 +1205,19 @@ input[type="reset"] {
 
 .rodape-frase {
   font-size: var(--fonte-tamanho-pequeno);
-
   text-align: center;
-
   color: var(--cor-container);
-  margin-top: var(--mb-0-50);
+  margin-top: var(--mb-1-50);
   font-style: italic;
+  line-height: 110%;
 }
 
 .footer__copy {
   font-size: var(--fonte-tamanho-pequenino);
   text-align: center;
   color: var(--cor-container);
-  margin-top: var(--mb-0-75);
+  margin-top: var(--mb-1-00);
+  line-height: 105%;
 }
 
 .footer__title,
