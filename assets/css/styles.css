@@ -630,12 +630,12 @@ input[type="reset"] {
 }
 
 
-/*==================== SKILLS ====================*/
-.skills__container {
+/*==================== habilidade ====================*/
+.habilidade__container {
   row-gap: 0;
 }
 
-.skills__header {
+.habilidade__header {
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-1-50);
@@ -643,129 +643,129 @@ input[type="reset"] {
   cursor: pointer;
 }
 
-.skills__icon,
-.skills__arrow {
+.habilidade__icon,
+.habilidade__arrow {
   font-size: 2rem;
   color: var(--cor-primaria)
 }
 
-.skills__icon {
+.habilidade__icon {
   margin-right: var(--mb-0-75);
 }
 
-.skills__title {
+.habilidade__title {
   font-size: var(--fonte-tamanho-h3);
 }
 
-.skills__subtitle {
+.habilidade__subtitle {
   font-size: var(--fonte-tamanho-pequeno);
   color: var(--cor-texto-claro);
 }
 
-.skills__arrow {
+.habilidade__arrow {
   margin-left: auto;
   transition: .4s;
 }
 
-.skills__list {
+.habilidade__list {
   row-gap: 1.5rem;
   padding-left: 2.7rem;
   padding-right: 1rem;
 }
 
-.skills__titles {
+.habilidade__titles {
   display: flex;
   justify-content: space-between;
   margin-bottom: var(--mb-0-50);
 }
 
-.skills__name {
+.habilidade__name {
   font-size: var(--fonte-tamanho-pequeno);
   font-weight: var(--font-medium);
   padding-right: 5px;
 }
 
-.skills__number {
+.habilidade__number {
   font-size: var(--fonte-tamanho-pequenino);
 }
 
-.skills__bar,
-.skills__percentage {
+.habilidade__bar,
+.habilidade__percentage {
   height: 5px;
   border-radius: .25rem;
 }
 
-.skills__bar {
+.habilidade__bar {
   background-color: var(--cor-primaria-claro);
 }
 
-.skills__percentage {
+.habilidade__percentage {
   display: block;
   background-color: var(--cor-primaria);
 }
 
-.skills__precificação {
+.habilidade__precificação {
   width: 80%;
 }
 
-.skills__reajuste {
+.habilidade__reajuste {
   width: 80%;
 }
 
-.skills__processos {
+.habilidade__processos {
   width: 75%;
 }
 
-.skills__lgpd {
+.habilidade__lgpd {
   width: 85%;
 }
 
 
-.skills__excel {
+.habilidade__excel {
   width: 90%;
 }
 
-.skills__vba {
+.habilidade__vba {
   width: 85%;
 }
 
-.skills__bi {
+.habilidade__bi {
   width: 85%;
 }
 
-.skills__sql {
+.habilidade__sql {
   width: 65%;
 }
 
-.skills__python {
+.habilidade__python {
   width: 55%;
 }
 
 
-.skills__figma {
+.habilidade__figma {
   width: 90%;
 }
 
-.skills__sketch {
+.habilidade__sketch {
   width: 85%;
 }
 
-.skills__photoshop {
+.habilidade__photoshop {
   width: 85%;
 }
 
-.skills__close .skills__list {
+.habilidade__close .habilidade__list {
   height: 0;
   overflow: hidden;
 
 }
 
-.skills__open .skills_list {
+.habilidade__open .habilidade_list {
   height: max-content;
   margin-bottom: var(--mb-2-50);
 }
 
-.skills__open .skills__arrow {
+.habilidade__open .habilidade__arrow {
   transform: rotate(-180deg);
 }
 
@@ -1316,7 +1316,7 @@ input[type="reset"] {
     width: 180px;
   }
 
-  .skills__title {
+  .habilidade__title {
     font-size: var(--fonte-tamanho-normal);
   }
 
@@ -1437,7 +1437,7 @@ input[type="reset"] {
   }
 
   .sobre__container,
-  .skills__container,
+  .habilidade__container,
   .portfolio__content,
   .contact__container {
     grid-template-columns: repeat(2, 1fr);

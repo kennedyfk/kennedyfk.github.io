@@ -32,23 +32,23 @@ function linkAction() {
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
-/*==================== ACCORDION SKILLS ====================*/
-const skillsContent = document.getElementsByClassName('skills__content'),
-  skillsHeader = document.querySelectorAll('.skills__header')
+/*==================== ACCORDION habilidade ====================*/
+const habilidadeContent = document.getElementsByClassName('habilidade__content'),
+  habilidadeHeader = document.querySelectorAll('.habilidade__header')
 
-function toggleSkills() {
+function togglehabilidade() {
   let itemClass = this.parentNode.className
 
-  for (i = 0; i < skillsContent.length; i++) {
-    skillsContent[i].className = 'skills__content skills__close'
+  for (i = 0; i < habilidadeContent.length; i++) {
+    habilidadeContent[i].className = 'habilidade__content habilidade__close'
   }
-  if (itemClass === 'skills__content skills__close') {
-    this.parentNode.className = 'skills__content skills__open'
+  if (itemClass === 'habilidade__content habilidade__close') {
+    this.parentNode.className = 'habilidade__content habilidade__open'
   }
 }
 
-skillsHeader.forEach((el) => {
-  el.addEventListener('click', toggleSkills)
+habilidadeHeader.forEach((el) => {
+  el.addEventListener('click', togglehabilidade)
 })
 
 
