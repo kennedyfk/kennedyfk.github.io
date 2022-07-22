@@ -135,16 +135,8 @@
             </svg>
           </div>
 
-          <script type="text/javascript" src="/assets/js/vanilla-tilt.js"></script>
-          <script type="text/javascript">
-            VanillaTilt.init(document.querySelector(".home__img"), {
-              max: 25,
-              speed: 400
-            });
 
-            //It also supports NodeList
-            VanillaTilt.init(document.querySelectorAll(".home__img"));
-          </script>
+
 
           <div class="home__data">
             <h1 class="home__title" id="home__title">Oi, eu sou o Kennedy</h1>
@@ -1010,6 +1002,28 @@
 
   <!--============================== SWIPER JS ==============================-->
   <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--============================== VANILLA JS ==============================-->
+  <script type="text/javascript" src="/assets/js/vanilla-tilt.js"></script>
+  <!--=== IMG HOME ===-->
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".home__img"), {
+      max: 25,
+      speed: 400
+    });
+
+    VanillaTilt.init(document.querySelectorAll(".home__img"));
+  </script>
+
+  <!--=== IMG SOBRE ===-->
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".sobre__img"), {
+      max: 25,
+      speed: 400
+    });
+
+    VanillaTilt.init(document.querySelectorAll(".sobre__img"));
+  </script>
 
   <!--============================== MAIN JS ==============================-->
   <script src="assets/js/main.js"></script>

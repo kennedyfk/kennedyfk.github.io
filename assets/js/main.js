@@ -282,5 +282,7 @@ ativarResumoProjeto.addEventListener("click", function () {
 });
 
 
+/*==================== MOSTRAR/ESCONDER PAINEL ====================*/
+
 
 
