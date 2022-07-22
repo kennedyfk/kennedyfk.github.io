@@ -135,6 +135,17 @@
             </svg>
           </div>
 
+          <script type="text/javascript" src="/assets/js/vanilla-tilt.js"></script>
+          <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".home__img"), {
+              max: 25,
+              speed: 400
+            });
+
+            //It also supports NodeList
+            VanillaTilt.init(document.querySelectorAll(".home__img"));
+          </script>
+
           <div class="home__data">
             <h1 class="home__title" id="home__title">Oi, eu sou o Kennedy</h1>
 
