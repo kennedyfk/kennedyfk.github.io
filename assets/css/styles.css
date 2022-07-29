@@ -523,8 +523,8 @@ input[type="reset"] {
 
 .painel__bi {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .painel__texto {
@@ -1281,10 +1281,16 @@ input[type="reset"] {
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 435px) {
+  .painel__container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .painel__bi {
     width: 320px;
     height: 240px;
     display: flex;
+    justify-content: center;
     align-items: center;
   }
 
