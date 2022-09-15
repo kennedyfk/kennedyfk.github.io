@@ -730,11 +730,11 @@ input[type="reset"] {
 }
 
 .habilidade__bi {
-  width: 85%;
+  width: 80%;
 }
 
 .habilidade__sql {
-  width: 65%;
+  width: 80%;
 }
 
 .habilidade__python {
@@ -743,7 +743,7 @@ input[type="reset"] {
 
 
 .habilidade__figma {
-  width: 90%;
+  width: 55%;
 }
 
 .habilidade__sketch {
