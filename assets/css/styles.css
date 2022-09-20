@@ -590,11 +590,20 @@ input[type="reset"] {
 .sobre__description {
   text-align: center;
   width: 380px;
-  margin-bottom: var(--mb-2-50);
+  margin-bottom: var(--mb-1-50);
 }
 
-.sobre__description span {
+
+.sobre__description_3 {
   color: #E31E3C;
+}
+
+.sobre__description_frase {
+  text-align: center;
+  width: 400px;
+  margin-bottom: var(--mb-1-00);
+  font-size: var(--fonte-tamanho-pequeno);
+  font-weight: var(--font-medium);
 }
 
 .sobre__info_box {
@@ -737,17 +746,20 @@ input[type="reset"] {
   width: 80%;
 }
 
+.habilidade__r {
+  width: 45%;
+}
+
 .habilidade__python {
-  width: 55%;
+  width: 45%;
 }
 
-
-.habilidade__figma {
-  width: 55%;
+.habilidade__htmlcss {
+  width: 35%;
 }
 
-.habilidade__sketch {
-  width: 85%;
+.habilidade__javascript {
+  width: 15%;
 }
 
 .habilidade__photoshop {
@@ -757,7 +769,6 @@ input[type="reset"] {
 .habilidade__close .habilidade__list {
   height: 0;
   overflow: hidden;
-
 }
 
 .habilidade__open .habilidade_list {
