@@ -194,42 +194,6 @@ themeButton.addEventListener('click', () => {
 
 
 /*==================== DIGITAÇÃO ====================*/
-/*
-function typeWriter(elemento) {
-  const textoArray = elemento.innerHTML.split('');
-  elemento.innerHTML = '';
-  textoArray.forEach((letra, i) => {
-    setTimeout(() => elemento.innerHTML += letra, 95 * i);
-  });
-}
-
-const titulo = document.querySelector('#home__title');
-typeWriter(titulo);
-
---------------------
-let i = 0;
-function typeWriter(elemento) {
-  const textoArray = elemento.innerHTML.split('');
-  elemento.innerHTML = '';
-  textoArray.forEach((letra, i) => {
-    setTimeout(() => elemento.innerHTML += letra, 95 * i);
-  });
-}
-
-const titulo = document.querySelector('#home__title');
-
-while (i <= 5) {
-
-  setTimeout(function () {
-    typeWriter(titulo);
-  }, 3000);
-
-  setTimeout(function () {
-  }, 3000);
-
-  i++
-}
-*/
 
 function waitforme(ms) {
 

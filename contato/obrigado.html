@@ -11,44 +11,50 @@
   <link rel="shortcut icon" href="../assets/img/hourglass.png" />
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="../painel/painel-styles.css">
-  <title>Kennedy Freire - Paineis Power BI</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <title>Kennedy Freire - Mensagem enviada</title>
 </head>
 
 <body>
   <header class="header" id="header">
     <nav class="nav container">
-      <a href="../index.html" class="nav_logo">Kennedy<span>Freire</span></a>
+      <a href="index.html" class="nav_logo">Kennedy<span>Freire</span></a>
 
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list grid">
           <li class="nav__item">
-            <a href="../index.html#home" class="nav__link">
+            <a href="../index.html" class="nav__link active-link">
               <i class="uil uil-estate nav__icon"></i>Home</a>
           </li>
 
           <li class="nav__item">
-            <a href="../index.html#about" class="nav__link">
+            <a href="../index.html#sobre" class="nav__link">
               <i class="uil uil-user nav__icon"></i>Sobre</a>
           </li>
 
           <li class="nav__item">
-            <a href="../index.html#skills" class="nav__link">
+            <a href="../index.html#habilidade" class="nav__link">
               <i class="uil uil-file-alt nav__icon"></i>Habilidades</a>
           </li>
 
           <li class="nav__item">
-            <a href="../index.html#services" class="nav__link">
-              <i class="uil uil-briefcase-alt nav__icon"></i>Serviços</a>
+            <a href="../index.html#qualificacoes" class="nav__link">
+              <i class="uil uil-briefcase-alt nav__icon"></i>Qualificações</a>
           </li>
 
           <li class="nav__item">
             <a href="../index.html#portfolio" class="nav__link">
-              <i class="uil uil-scenery nav__icon"></i>Portfolio</a>
+              <i class="uil uil-scenery nav__icon_port"></i><span>Portfolio</span></a>
           </li>
 
+          <!--
           <li class="nav__item">
-            <a href="../index.html#contact" class="nav__link">
+            <a href="#recomendacoes" class="nav__link">
+              <i class="uil uil-comment-alt-lines nav__icon"></i>Recomendações</a>
+          </li>
+          -->
+          <li class="nav__item">
+            <a href="../index.html#contato" class="nav__link">
               <i class="uil uil-message nav__icon"></i>Contato</a>
           </li>
         </ul>
@@ -69,7 +75,7 @@
   <!--============================== MAIN ==============================-->
   <main class="main">
     <!--============================== PAINEL ==============================-->
-    <section class="about section">
+    <section class="sobre section">
       <h2 class="section__title"><br>Muito Obrigado<br></h2>
       <span class="section__subtitle"></span>
 
@@ -83,51 +89,48 @@
         </a>
       </div>
 
-
-      <div class="section__desenvolvido__resumo hide" id="resumo-projeto">
-        Um pequeno resumo sobre o Projeto.
-      </div>
     </section>
 
 
-    <!--============================== FOOTER ==============================-->
+    <!--============================== RODAPE ==============================-->
     <footer class="rodape">
-      <div class="footer__bg">
-        <div class="footer__container container grid">
-          <div class="footer__principal">
-            <a href="../index.html">
-              <h1 class="footer__title">Kennedy<span>Freire</span></h1>
+      <div class="rodape__bg">
+        <div class="rodape__container container grid">
+          <div class="rodape__principal">
+            <a href="index.html">
+              <h1 class="rodape__title">Kennedy<span>Freire</span></h1>
             </a>
-            <span class="footer__subtitle">Atuario</span>
+            <span class="rodape__subtitle">Futuro Atuario</span>
+
           </div>
 
-          <ul class="footer__links">
+          <ul class="rodape__links">
             <li>
-              <a href="../index.html#services" class="footer__link">Serviços</a>
+              <a href="#qualificacoes" class="rodape__link">Qualificações</a>
             </li>
 
             <li>
-              <a href="../index.html#portfolio" class="footer__link">Portfolio</a>
+              <a href="#portfolio" class="rodape__link">Portfolio</a>
             </li>
 
             <li>
-              <a href="../index.html#contact" class="footer__link">Contato</a>
+              <a href="#contato" class="rodape__link">Contato</a>
             </li>
           </ul>
 
-          <div class="footer__socials">
-            <a href="https://www.linkedin.com/in/kennedyfreire/" target="_blank" class="footer__social"
-              title="Facebook">
-              <i class="uil uil-facebook-f"></i>
+          <div class="rodape__socials">
+            <a href="https://www.linkedin.com/in/kennedyfreire/" target="_blank" class="rodape__social"
+              title="LinkedIn">
+              <i class="uil uil-linkedin-alt"></i>
             </a>
 
-            <a href="https://www.linkedin.com/in/kennedyfreire/" target="_blank" class="footer__social"
+            <a href="https://www.instagram.com/_kennedyfreire/" target="_blank" class="rodape__social"
               title="Instagram">
               <i class="uil uil-instagram"></i>
             </a>
 
-            <a href="https://www.linkedin.com/in/kennedyfreire/" target="_blank" class="footer__social" title="Twitter">
-              <i class="uil uil-twitter-alt"></i>
+            <a href="https://github.com/kennedyfk" target="_blank" class="rodape__social" title="Github">
+              <i class="uil uil-github-alt"></i>
             </a>
           </div>
 
@@ -135,7 +138,7 @@
         </div>
 
         <p class="rodape-frase">"Tudo na vida é gerenciamento de risco, <br>não sua eliminação."</p>
-        <p class="footer__copy">&#169; KennedyFreire. Todos os direitos reservados.</p>
+        <p class="rodape__copy">Site foi desenvolvido por <br>&#169; KennedyFreire. Todos os direitos reservados.</p>
       </div>
     </footer>
 
@@ -150,6 +153,18 @@
 
     <!--============================== SWIPER JS ==============================-->
     <script src="../assets/js/swiper-bundle.min.js"></script>
+
+    <!--============================== VANILLA JS ==============================-->
+    <script type="text/javascript" src="../assets/js/vanilla-tilt.js"></script>
+    <!--=== IMG HOME ===-->
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".home__img"), {
+        max: 25,
+        speed: 400
+      });
+
+      VanillaTilt.init(document.querySelectorAll(".home__img"));
+    </script>
 
     <!--============================== MAIN JS ==============================-->
     <script src="../assets/js/main.js"></script>
