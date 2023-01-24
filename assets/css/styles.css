@@ -158,8 +158,16 @@ img {
   margin-bottom: var(--mb-3-00);
 }
 
+.blog__subtitle {
+  display: block;
+  font-style: italic;
+  font-size: var(--fonte-tamanho-pequenino);
+  margin-bottom: var(--mb-3-00);
+}
+
 .section__title,
-.section__subtitle {
+.section__subtitle,
+.blog__subtitle {
   text-align: center;
 }
 
@@ -195,6 +203,20 @@ img {
   max-width: 768px;
   margin-left: var(--mb-1-50);
   margin-right: var(--mb-1-50);
+}
+
+.blog__container {
+  max-width: 958px;
+  text-align: justify;
+  text-indent: 2em;
+  margin-left: var(--mb-1-50);
+  margin-right: var(--mb-1-50);
+  padding: 30px 75px 75px 75px;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  border-radius: 2.5rem;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+  border-top: none;
+  border-bottom: none;
 }
 
 .painel__container {
@@ -432,6 +454,16 @@ img {
 
 .home__scroll-button:hover {
   transform: translateY(.25rem);
+}
+
+.blog-button {
+  color: var(--cor-primaria);
+  text-indent: 0;
+  transition: .35s;
+}
+
+.blog-button:hover {
+  transform: translateY(-0.2rem);
 }
 
 .home__scroll-mouse {
@@ -972,6 +1004,13 @@ input[type="reset"] {
   justify-self: center;
 }
 
+.blog__img {
+  display: block;
+  max-width: 958px;
+  margin: -1.86rem 0 2.75rem -4.74rem;
+  border-radius: 2.5rem;
+}
+
 .portfolio__title {
   font-size: var(--fonte-tamanho-h3);
   margin-bottom: var(--mb-0-50);
@@ -1310,6 +1349,11 @@ input[type="reset"] {
     margin-right: var(--mb-1-00);
   }
 
+  .blog__container {
+    margin-left: var(--mb-1-00);
+    margin-right: var(--mb-1-00);
+  }
+
   .qualification__tabs {
     margin: 0 20px;
     display: flex;
@@ -1523,6 +1567,11 @@ input[type="reset"] {
     margin-right: auto;
   }
 
+  .blog__container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   body {
     margin: 0;
   }
@@ -1532,6 +1581,10 @@ input[type="reset"] {
   }
 
   .section__subtitle {
+    margin-bottom: 4rem;
+  }
+
+  .blog__subtitle {
     margin-bottom: 4rem;
   }
 
@@ -1605,6 +1658,10 @@ input[type="reset"] {
 
   .home__scroll-button {
     margin-left: 3rem;
+  }
+
+  .blog-button {
+    margin: 0 .1rem;
   }
 
   .sobre__container {
