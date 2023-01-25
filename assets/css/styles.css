@@ -505,7 +505,8 @@ img {
 
 .blog-button-link {
   color: var(--cor-titulo-blog);
-  line-height: 3rem;
+  text-decoration: underline;
+  line-height: 3.25rem;
   text-indent: 0;
   transition: .25s;
 }
