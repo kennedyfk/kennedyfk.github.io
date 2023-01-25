@@ -503,6 +503,18 @@ img {
   transform: translateY(-0.15rem);
 }
 
+.blog-button-link {
+  color: var(--cor-titulo-blog);
+  line-height: 3rem;
+  text-indent: 0;
+  transition: .45s;
+}
+
+.blog-button-link:hover {
+  transform: translateY(-0.15rem);
+  color: var(--cor-primaria);
+}
+
 .home__scroll-mouse {
   font-size: 2rem;
 }
