@@ -141,6 +141,10 @@ img {
   padding: 2rem 0 4rem;
 }
 
+.section__blog {
+  padding: 2rem 0 4rem;
+}
+
 .section__title {
   font-size: var(--fonte-tamanho-h1);
   color: var(--cor-titulo);
@@ -1580,12 +1584,26 @@ input[type="reset"] {
     padding: 6rem 0 2rem;
   }
 
+  .section__blog {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    box-align: center;
+    padding: 6rem 0 4.25rem;
+  }
+
   .section__subtitle {
     margin-bottom: 4rem;
   }
 
   .blog__subtitle {
-    margin-bottom: 4rem;
+    width: 958px;
+    text-align: right;
+
+    margin-bottom: .1rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .header {
