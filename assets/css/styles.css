@@ -246,6 +246,11 @@ img {
   padding: 10px 50px 75px;
 }
 
+.blog__container-text span {
+
+  font-weight: var(--font-semi-bold);
+}
+
 .painel__container {
   max-width: 1024px;
   display: flex;
