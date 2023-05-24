@@ -668,7 +668,7 @@ input[type="reset"] {
 
 .sobre__img {
   width: 200px;
-  border-radius: .5rem;
+  border-radius: 1.5rem;
   justify-self: center;
   align-self: center;
 }
