@@ -663,6 +663,9 @@ input[type="reset"] {
 
 /*==================== sobre ====================*/
 .sobre__data {
+  display: grid;
+  justify-self: center;
+  justify-content: center;
   text-align: center;
 
 }
@@ -675,6 +678,8 @@ input[type="reset"] {
 }
 
 .sobre__description {
+  justify-self: center;
+  justify-content: center;
   text-align: center;
   width: 380px;
   margin-bottom: var(--mb-1-50);
@@ -686,9 +691,10 @@ input[type="reset"] {
 }
 
 .sobre__description_frase {
+  justify-self: center;
+  justify-content: center;
   text-align: center;
-  width: 400px;
-  padding-right: 20px;
+  width: 100%;
   margin-bottom: var(--mb-1-00);
   font-size: var(--fonte-tamanho-pequeno);
   font-weight: var(--font-medium);
