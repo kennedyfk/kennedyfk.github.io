@@ -664,6 +664,7 @@ input[type="reset"] {
 /*==================== sobre ====================*/
 .sobre__data {
   text-align: center;
+
 }
 
 .sobre__img {
@@ -687,6 +688,7 @@ input[type="reset"] {
 .sobre__description_frase {
   text-align: center;
   width: 400px;
+  padding-right: 20px;
   margin-bottom: var(--mb-1-00);
   font-size: var(--fonte-tamanho-pequeno);
   font-weight: var(--font-medium);
