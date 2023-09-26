@@ -248,8 +248,26 @@ img {
 }
 
 .blog__container-text span {
-
   font-weight: var(--font-semi-bold);
+}
+
+.blog__container-text-span-subl1inhado {
+  text-decoration: underline
+}
+
+.blog__container-text table {
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.blog__container-text td {
+  padding: 20px 0;
+}
+
+.blog__container-text_sub {
+  font-size: 0.7rem;
+  margin-top: -2px;
 }
 
 .painel__container {
