@@ -8,12 +8,12 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --cor-base: 215;
-  /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --cor-base: 172;
+  /*Cor Base 131/ 215 - Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
-  --cor-primaria: hsl(var(--cor-base), 69%, 61%);
-  --cor-primaria-segunda: hsl(var(--cor-base), 69%, 61%);
+  --cor-primaria: hsl(var(--cor-base), 59%, 41%);
+  --cor-primaria-segunda: hsl(var(--cor-base), 88%, 19%);
   --cor-primaria-alt: hsl(var(--cor-base), 57%, 53%);
   --cor-primaria-claro: hsl(var(--cor-base), 92%, 85%);
   --cor-titulo: hsl(var(--cor-base), 8%, 15%);
@@ -68,7 +68,8 @@
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
   /* HSL color mode */
-  --cor-primaria-segunda: hsl(var(--cor-base), 30%, 8%);
+  --cor-primaria: hsl(var(--cor-base), 59%, 41%);
+  --cor-primaria-segunda: hsl(var(--cor-base), 88%, 19%);
   --cor-titulo: hsl(var(--cor-base), 8%, 95%);
   --cor-texto: hsl(var(--cor-base), 8%, 75%);
   --cor-input: hsl(var(--cor-base), 29%, 16%);
@@ -430,7 +431,7 @@ img {
 
 .home__blob {
   width: 200px;
-  fill: var(--cor-primaria);
+  fill: var(--cor-primaria-segunda);
 }
 
 .home_blob-img {
@@ -1212,6 +1213,8 @@ input[type="reset"] {
 }
 
 .contato__input {
+  height: 2rem;
+  padding: 0.2rem 0.8rem;
   width: 100%;
   resize: vertical;
   background-color: var(--cor-input);
@@ -1223,6 +1226,7 @@ input[type="reset"] {
 
 .contato__input__mensagem {
   height: 13rem;
+  padding: 0.5rem 0.8rem;
   min-height: 6rem;
   max-height: 20rem;
 }
