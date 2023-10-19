@@ -509,6 +509,7 @@ img {
 
 .blog-button {
   color: var(--cor-primaria);
+  max-width: 90%;
   text-indent: 0;
   transition: .35s;
 }
@@ -581,9 +582,28 @@ input[type="reset"] {
   background-color: var(--cor-primaria-alt);
 }
 
+.button-voltar {
+  display: inline-block;
+  background-color: var(--cor-primaria);
+  color: #fff;
+  padding: .6rem .6rem .6rem 0;
+  border-radius: 2.25rem;
+  font-weight: var(--font-medium);
+}
+
+.button-voltar:hover {
+  background-color: var(--cor-primaria-alt);
+}
+
 .button__icon {
   font-size: 1.25rem;
   margin-left: var(--mb-0-50);
+  transition: .3s;
+}
+
+.button__icon-voltar {
+  font-size: 1.25rem;
+  margin-left: -15%;
   transition: .3s;
 }
 
@@ -1008,6 +1028,10 @@ input[type="reset"] {
   transform: translateX(.25rem);
 }
 
+.services__button:hover .button__icon-voltar {
+  transform: translateX(.25rem);
+}
+
 .services__modal {
   position: fixed;
   top: 0;
@@ -1115,6 +1139,10 @@ input[type="reset"] {
 }
 
 .portfolio__button:hover .button__icon {
+  transform: translateX(.25rem);
+}
+
+.portfolio__button-voltar:hover .button__icon-voltar {
   transform: translateX(.25rem);
 }
 
@@ -1665,6 +1693,13 @@ input[type="reset"] {
     margin-right: var(--mb-1-00);
   }
 
+  .blog__container img {
+    max-width: 75%;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+  }
+
   .blog__container-text {
     text-align: justify;
     text-indent: 2em;
@@ -1774,6 +1809,13 @@ input[type="reset"] {
     align-items: center;
   }
 
+  .blog__container img {
+    max-width: 85%;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+  }
+
   .blog__container-text {
     text-align: justify;
     text-indent: 2em;
@@ -1814,7 +1856,7 @@ input[type="reset"] {
 
   .blog__container-text {
     text-align: justify;
-    text-indent: 2em;
+
     padding: 10px 50px 75px;
   }
 
@@ -1910,6 +1952,13 @@ input[type="reset"] {
   .container {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .blog__container img {
+    max-width: 75%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
   }
 
   .blog__container,
