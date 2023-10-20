@@ -117,14 +117,17 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
   loop: true,
   gradCursos: true,
   spaceBetween: 48,
-
+  navigation: {
+    nextEl: '.swiper-button-next1',
+    prevEl: '.swiper-button-prev1',
+  },
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
     DynamicBullets: true
   },
   breakpoints: {
-    568: {
+    5: {
       slidesPerView: 2,
     }
   }
