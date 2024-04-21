@@ -850,6 +850,18 @@ input[type="reset"] {
   background-color: var(--cor-primaria);
 }
 
+.habilidade__estudos {
+  width: 90%;
+}
+
+.habilidade__dados {
+  width: 90%;
+}
+
+.habilidade__processos {
+  width: 85%;
+}
+
 .habilidade__precificação {
   width: 80%;
 }
@@ -858,17 +870,13 @@ input[type="reset"] {
   width: 80%;
 }
 
-.habilidade__processos {
-  width: 75%;
-}
-
 .habilidade__lgpd {
   width: 85%;
 }
 
 
 .habilidade__excel {
-  width: 90%;
+  width: 95%;
 }
 
 .habilidade__vba {
@@ -876,7 +884,7 @@ input[type="reset"] {
 }
 
 .habilidade__bi {
-  width: 80%;
+  width: 95%;
 }
 
 .habilidade__sql {
@@ -889,6 +897,14 @@ input[type="reset"] {
 
 .habilidade__python {
   width: 45%;
+}
+
+.habilidade__google {
+  width: 50%;
+}
+
+.habilidade__libre {
+  width: 50%;
 }
 
 .habilidade__htmlcss {
@@ -1193,7 +1209,6 @@ input[type="reset"] {
 .testimonial__container {
   display: flex;
   flex-direction: row;
-
 }
 
 .testimonial__data,
