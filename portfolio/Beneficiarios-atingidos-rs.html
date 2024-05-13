@@ -91,7 +91,8 @@
   <!--============================== MAIN ==============================-->
   <main class="main">
     <!--============================== BLOG ==============================-->
-    <section class="sobre section__blog" id="blog">
+    <section class="sobre section__blog" id="blog"
+      style="background-color: rgba(0,0,0,0.7); background-repeat: no-repeat; background-size: cover; background-image: url('../assets/img/benefs-atingidos-rs.jpg');">
 
       <span class="blog__subtitle">Publicado em 7 de Maio de 2024</span>
 
@@ -197,33 +198,17 @@
 
       VanillaTilt.init(document.querySelectorAll(".home__img"));
 
-      const prevBtn = document.querySelector('#prevBtn');
-      const nextBtn = document.querySelector('#nextBtn');
-
+      const prevBtn = document.querySelector(' #prevBtn'); const nextBtn = document.querySelector('#nextBtn');
       prevBtn.addEventListener('click', () => {
         var radiobtn = document.getElementsByName('radio-btn');
         var counter;
-        for (var i = 0; i < radiobtn.length; i++) {
-          if (radiobtn[i].checked) {
-            counter = radiobtn[i].value;
-          }
-        }
-        counter--;
-        if (counter < 1) {
-          counter = 10;
-        }
-        document.getElementById('radio' + counter).checked = true;
+        for (var i = 0; i < radiobtn.length; i++) { if (radiobtn[i].checked) { counter = radiobtn[i].value; } } counter--;
+        if (counter < 1) { counter = 10; } document.getElementById('radio' + counter).checked = true;
       })
-
       nextBtn.addEventListener('click', () => {
         var radiobtn = document.getElementsByName('radio-btn');
         var counter;
-        for (var i = 0; i < radiobtn.length; i++) {
-          if (radiobtn[i].checked) {
-            counter = radiobtn[i].value;
-          }
-        }
-        counter++;
+        for (var i = 0; i < radiobtn.length; i++) { if (radiobtn[i].checked) { counter = radiobtn[i].value; } } counter++;
         if (counter > 10) {
           counter = 1;
         }
@@ -232,11 +217,11 @@
       /*
       var counter = 1;
       setInterval(function () {
-        document.getElementById('radio' + counter).checked = true;
-        counter++;
-        if (counter > 10) {
-          counter = 1;
-        }
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if (counter > 10) {
+      counter = 1;
+      }
       }, 15000);
       */
     </script>
