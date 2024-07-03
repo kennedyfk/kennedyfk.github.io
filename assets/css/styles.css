@@ -14,18 +14,13 @@
   /* HSL color mode */
   --cor-primaria: hsl(var(--cor-base), 59%, 41%);
   --cor-primaria-segunda: hsl(var(--cor-base), 88%, 19%);
-  --cor-primaria-alt: hsl(var(--cor-base), 57%, 53%);
-  --cor-primaria-claro: hsl(var(--cor-base), 92%, 85%);
-  --cor-titulo: hsl(var(--cor-base), 8%, 15%);
-  --cor-titulo-blog-claro: hsl(var(--cor-base), 8%, 95%);
-  --cor-titulo-blog-escuro: hsl(var(--cor-base), 8%, 15%);
-  --cor-texto: hsl(var(--cor-base), 8%, 45%);
-  --cor-texto-claro: hsl(var(--cor-base), 8%, 65%);
-  --cor-input: hsl(var(--cor-base), 70%, 96%);
-  --cor-body: hsl(var(--cor-base), 60%, 99%);
-  --cor-container: #fff;
-  --cor-scroll-bar: hsl(var(--cor-base), 12%, 90%);
-  --cor-scroll-thumb: hsl(var(--cor-base), 12%, 80%);
+  --cor-titulo: hsl(var(--cor-base), 8%, 95%);
+  --cor-texto: hsl(var(--cor-base), 8%, 75%);
+  --cor-input: hsl(var(--cor-base), 29%, 16%);
+  --cor-body: hsl(var(--cor-base), 28%, 12%);
+  --cor-container: hsl(var(--cor-base), 29%, 16%);
+  --cor-scroll-bar: hsl(var(--cor-base), 12%, 48%);
+  --cor-scroll-thumb: hsl(var(--cor-base), 12%, 36%);
 
   /*========== Font and typography ==========*/
   --body-fonte: 'Poppins', sans-serif;
@@ -70,13 +65,18 @@ body.dark-theme {
   /* HSL color mode */
   --cor-primaria: hsl(var(--cor-base), 59%, 41%);
   --cor-primaria-segunda: hsl(var(--cor-base), 88%, 19%);
-  --cor-titulo: hsl(var(--cor-base), 8%, 95%);
-  --cor-texto: hsl(var(--cor-base), 8%, 75%);
-  --cor-input: hsl(var(--cor-base), 29%, 16%);
-  --cor-body: hsl(var(--cor-base), 28%, 12%);
-  --cor-container: hsl(var(--cor-base), 29%, 16%);
-  --cor-scroll-bar: hsl(var(--cor-base), 12%, 48%);
-  --cor-scroll-thumb: hsl(var(--cor-base), 12%, 36%);
+  --cor-primaria-alt: hsl(var(--cor-base), 57%, 53%);
+  --cor-primaria-claro: hsl(var(--cor-base), 92%, 85%);
+  --cor-titulo: hsl(var(--cor-base), 8%, 15%);
+  --cor-titulo-blog-claro: hsl(var(--cor-base), 8%, 95%);
+  --cor-titulo-blog-escuro: hsl(var(--cor-base), 8%, 15%);
+  --cor-texto: hsl(var(--cor-base), 8%, 45%);
+  --cor-texto-claro: hsl(var(--cor-base), 8%, 65%);
+  --cor-input: hsl(var(--cor-base), 70%, 96%);
+  --cor-body: hsl(var(--cor-base), 60%, 99%);
+  --cor-container: #fff;
+  --cor-scroll-bar: hsl(var(--cor-base), 12%, 90%);
+  --cor-scroll-thumb: hsl(var(--cor-base), 12%, 80%);
 }
 
 
