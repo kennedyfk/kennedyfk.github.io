@@ -499,7 +499,8 @@ img {
 }
 
 .home__description {
-  padding-top: 15px;
+  padding: 10px 15px 0;
+  text-align: justify;
 }
 
 .home__scroll-button {
@@ -958,7 +959,7 @@ input[type="reset"] {
 
 .qualification__data {
   display: grid;
-  grid-template-columns: 1fr max-content 1fr;
+  grid-template-columns: 5.5fr max-content 5.5fr;
   column-gap: 1rem;
 }
 
@@ -1910,7 +1911,7 @@ input[type="reset"] {
   }
 
   .home__img {
-    order: 1;
+    order: 0;
     justify-self: center;
   }
 
