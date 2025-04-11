@@ -22,6 +22,39 @@ if (navClose) {
 }
 
 
+const track = document.querySelector(".carousel-track");
+const slides = document.querySelectorAll(".carousel-img");
+let index = 1; // começa no slide real 1
+let allowShift = true;
+
+function moveSlide(direction) {
+  if (!allowShift) return;
+  allowShift = false;
+  index += direction;
+  track.style.transition = "transform 0.4s ease-in-out";
+  track.style.transform = `translateX(-${index * 100}%)`;
+}
+
+// Quando a transição termina, fazemos o "reset invisível" se estiver num clone
+track.addEventListener("transitionend", () => {
+  if (index === slides.length - 1) {
+    // se foi pro clone do primeiro
+    track.style.transition = "none";
+    index = 1;
+    track.style.transform = `translateX(-${index * 100}%)`;
+  } else if (index === 0) {
+    // se foi pro clone do último
+    track.style.transition = "none";
+    index = slides.length - 2;
+    track.style.transform = `translateX(-${index * 100}%)`;
+  }
+  allowShift = true;
+});
+
+
+
+
+
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 

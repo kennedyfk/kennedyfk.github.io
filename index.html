@@ -116,7 +116,7 @@
 
             <h3 class="home__subtitle">Cientista Atuarial</h3>
             <p class="home__description">&nbsp;&nbsp;&nbsp;&nbsp;Analista Atuarial Pleno, formado pela
-              Universidade Federal do Ceará, futuro especialista em Estatística para Ciência de Dados
+              Universidade Federal do Ceará. Futuro Especialista em Estatística para Ciência de Dados pela Puc Minas
               e um entusiasta em solucionar problemas.</p><br>
             <a href="#contato" class="button button--flex" title="Entre em contato">
               Entre em contato<i class="uil uil-message button__icon"></i>
@@ -140,7 +140,23 @@
       <span class="section__subtitle">Um apaixonado pelo Risco.</span>
 
       <div class="sobre__container container grid">
-        <img src="assets/img/sobre.png" alt="" class="sobre__img">
+        <div class="carousel">
+          <div class="carousel-track">
+            <!-- clone do último (vai pra esquerda infinita) -->
+            <img src="assets/img/sobre2.png" class="carousel-img">
+
+            <!-- slides reais -->
+            <img src="assets/img/sobre.png" class="carousel-img">
+            <img src="assets/img/sobre2.png" class="carousel-img">
+
+
+            <!-- clone do primeiro (vai pra direita infinita) -->
+            <img src="assets/img/sobre.png" class="carousel-img">
+          </div>
+          <button class="prev" onclick="moveSlide(-1)">‹</button>
+          <button class="next" onclick="moveSlide(1)">›</button>
+        </div>
+
 
         <div class="sobre__data">
           <br>

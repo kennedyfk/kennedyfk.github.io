@@ -714,12 +714,66 @@ input[type="reset"] {
 
 }
 
-.sobre__img {
-  width: 200px;
+.carousel {
+  position: relative;
+  width: 300px;
+  /* ou 100% se quiser responsivo */
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+  transform: translateX(-100%);
+  /* começa no slide real */
+}
+
+.carousel-img {
+  min-width: 100%;
+  display: block;
   border-radius: 1.5rem;
   justify-self: center;
   align-self: center;
 }
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  /* fundo escuro translúcido */
+  color: #fff;
+  /* texto branco */
+  border: none;
+  font-size: 16px;
+  /* menor tamanho da seta */
+  padding: 4px 8px;
+  /* botão pequeno */
+  border-radius: 3px;
+  /* leve arredondamento */
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.prev:hover,
+.next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 8px;
+}
+
+.next {
+  right: 8px;
+}
+
+
+
+
+
 
 .sobre__description {
   justify-self: center;
